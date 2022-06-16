@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',
+        sans-serif;
+
+}
+
+.header .navbar {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-items ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navbar .nav-items ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 1.25rem;
+    font-weight: 500;
+    color: black;
+}
+
+.navbar .logo,
+.navbar .nav-items {
+    padding: 0.7rem 15rem;
+}
+
+body {
+    background: url(./img/bg-image.jpg);
+}
